@@ -3,6 +3,24 @@
     background-color:gray;
 }
 
+header {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header li{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    float:left;
+}
+
+pic li{
+    list-style:none;
+}
+
 li:hover{
     color:blue;
 }
+

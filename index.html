@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <header>
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,15 +11,26 @@
         <script type="text/javascript" src="./public/test.js"></script>
 
         <link rel="stylesheet" href="./public/stylesheet.css" >
-    </header>
+    </head>
+
     <body>
-        <h1 class="info">About me.  Yomi profile</h1><br><br>
-        <img src="./public/penguin.png">
-        <h2><a href="https://twitter.com/yomiWcre">My twitter @yomiWcre</a></h2><br>
+        <header>
+            <ul class="header">
+                <li><a href="#top">About</a></li>
+                <li><a href="#skill">Skill</a></li>
+            </ul>
+        </header><br><br>
+
+        <img src="./public/1.png">
+        <button><h1>Don't Click!</h1></button><br><br>
+    
+        <h1 id="About">About me.  Yomi profile</h1><br><br>
+        <h2><a href="https://twitter.com/yomiWcre">My twitter @yomiWcre</a></h2><br><br>
+        
         <h2>Age: 24years old</h2>
         <h2>Engginer Life: 0day</h2><br>
 
-        <h2>Skill set</h2>
+        <h2 id="skill">Skill set</h2><br><br><br>
         <ul>
             <li>html</li>
             <li>Sass and CSS</li>
@@ -30,21 +41,12 @@
             <li>php</li>
             <li>python</li>
         </ul>
- 
+        <br><br><br><br>
         <h3>調子に乗って英語で書いてみたけど伝われば良いよね( *´艸｀)</h3>
- 
-        <button><h1>footer change color</h1></button>
 
-        <p>Bootstrapにて画像の切り抜きとボタンの設定をしてます</p>
-        <p>JSのalertをつかってページ読み込み直後に表示(時々確認の時に鬱陶しかったんですけどｗｗｗ......)</p>
-        <p>JSでボタン操作でfooter文字の変更できるようにしてます</p>
-        <p>jQueryにてfooterからTopまでスクロールします</p>
-        <p>(css hoverにてlistの色変化)</p>
     </body>
     <footer>
-        <h4>色が変わるよ！！</h4>
-        <a href="https://www.google.co.jp/"押したくなるリンク></a>
-        <h2>Topへ</h2>
+        <a href="https://www.google.co.jp/">押したくなるリンク</a>
         <p>アダルトサイトへジャンプさせるとか変な遊び心を考えたのですが辞めておきましたｗ<br>
         後がこわいですし( ﾟДﾟ)</p>
     </footer>
