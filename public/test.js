@@ -1,6 +1,8 @@
 alert ('Hello');
 
 $(function(){
-    $(":footer").css("color","black");
+    $("button").click(function(){
+        $("h4").css("color","blue");
+    });
 });
 
