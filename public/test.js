@@ -9,7 +9,7 @@ $(function(){
 
 $(function(){
     $("button").click(function(){
-        $("img").attr("src", "./public/2.jpg");
+        $("img").attr("src", "./public/2.png");
     });
 });
 
